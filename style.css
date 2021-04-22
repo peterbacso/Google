@@ -67,10 +67,12 @@ body {
     width: 24px;
     height: 100%;
     right: 16px;
+    cursor: pointer;
 }
 .input-box .keyboard-icon {
     position: absolute;
     right: 60px;
+    cursor: pointer;
 }
 
 .input-box .keyboard-icon img {
