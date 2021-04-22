@@ -62,8 +62,15 @@ body {
     fill: #5f6368;
     left: 20px;
 }
+.input-box .mic-icon {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    fill: #5f6368;
+    right: 20px;
+}
 .search-input {
-    padding-left: 50px;
+    padding: 0 50px;
     width: 580px;
     display: block;
     height: 42px;
