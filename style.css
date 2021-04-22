@@ -69,8 +69,19 @@ body {
     fill: #5f6368;
     right: 20px;
 }
+.input-box .keyboard-icon {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    fill: #5f6368;
+    right: 60px;
+}
+
+.input-box .keyboard-icon img {
+    padding: 15px 0;
+}
 .search-input {
-    padding: 0 50px;
+    padding: 0 100px 0 50px;
     width: 580px;
     display: block;
     height: 42px;
