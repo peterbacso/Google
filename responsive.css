@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px) {
+    .container {
+        margin-top: 80px;
+    }
+    .input-box {
+        width: 100%;
+    }
+    .input-box .search-input {
+        width: 100%;
+    }
+    .center-buttons .button {
+        display: block;
+    }
+    .lang a {
+        display: block;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .footer .up-footer {
+        text-align: center;
+    }
+    .footer .country {
+        margin: 0;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .footer .up-footer, .footer .sub-footer {
+        height: auto;
+    }
+    .footer .sub-footer .right, .footer .sub-footer .left {
+        float: none;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .footer .sub-footer .left p:first-child, .footer .sub-footer .right p:last-child {
+        margin: 0;
+    }
+  }

@@ -41,7 +41,7 @@ body {
 }
 /* Container */
 .container {
-    margin-top: 50px;
+    margin: 50px 15px 0;
 }
 .title-gif {
     width: 300px;
@@ -147,6 +147,9 @@ body {
 }
 .footer .sub-footer .right {
     float: right;
+}
+.footer .sub-footer .left {
+    float: left;
 }
 .footer .sub-footer .right .sub-footer-text {
     margin-left: 0;
