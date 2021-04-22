@@ -36,6 +36,7 @@ body {
     width: 300px;
     display: block;
     margin: 0 auto;
+    border-radius: 20px
 }
 .search-input {
     width: 580px;
@@ -117,4 +118,11 @@ body {
     margin-block: 0;
     line-height: 50px;
     display: inline-block;
+}
+.footer .sub-footer .right {
+    float: right;
+}
+.footer .sub-footer .right .sub-footer-text {
+    margin-left: 0;
+    margin-right: 30px;
 }
