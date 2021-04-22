@@ -77,9 +77,10 @@ body {
     padding: 15px 0;
 }
 .search-input {
-    padding: 0 100px 0 50px;
     width: 580px;
     display: block;
+    color: rgba(0,0,0,.87);
+    padding: 0 100px 0 50px;
     height: 42px;
     border-radius: 20px;
     border: 1px solid #E5E6EA;
@@ -145,19 +146,22 @@ body {
     line-height: 50px;
 }
 .footer .up-footer {
-    border-bottom: 1px solid #dadce0;
-}
-.footer .up-footer, .footer .sub-footer {
+    
     height: 50px;
+    border-bottom: 1px solid #dadce0;
 }
 .footer .sub-footer-text {
     margin-left: 30px;
     color: rgba(0,0,0,.54);
     font-family: arial;
-    font-size: 15px;
+    font-size: 14px;
     margin-block: 0;
     line-height: 50px;
     display: inline-block;
+}
+.footer .sub-footer-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 .footer .sub-footer .right {
     float: right;
