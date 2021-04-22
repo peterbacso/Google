@@ -32,7 +32,7 @@
         margin: 0 auto;
         width: fit-content;
     }
-    .footer .sub-footer .left p:first-child, .footer .sub-footer .right p:last-child {
+    .footer .sub-footer .left a:first-child, .footer .sub-footer .right a:last-child {
         margin: 0;
     }
   }
